@@ -27,6 +27,10 @@ narwhals==1.17.0
 numpy==2.2.0
 packaging==24.2
 pandas==2.2.3
+discord.py
+python-dotenv
+streamlit
+
 pillow==11.0.0
 propcache==0.2.1
 protobuf==5.29.1
