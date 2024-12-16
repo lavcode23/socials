@@ -13,6 +13,7 @@ def install_and_check(package):
 install_and_check("discord")
 install_and_check("python-dotenv")
 install_and_check("streamlit")
+
 import discord
 import asyncio
 import streamlit as st
