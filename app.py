@@ -1,19 +1,3 @@
-import os
-import sys
-import subprocess
-
-def install_and_check(package):
-    try:
-        __import__(package)
-        print(f"{package} is already installed")
-    except ImportError:
-        print(f"{package} not found. Installing...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-install_and_check("discord")
-install_and_check("python-dotenv")
-install_and_check("streamlit")
-
 import discord
 import asyncio
 import streamlit as st
